@@ -6,4 +6,6 @@ export type PostType = {
   export type PostContextType = {
     posts: PostType[];
     savePosts: (todo: PostType) => void;
+    savePostsAsArray: (todo: PostType[]) => void;
+
   };
